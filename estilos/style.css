@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores:
+
+#593954 - roxo
+#013440 - Azul 1
+#026873 - Azul 2
+#038C8C - Azul 3
+#038C7F - Azul 4
+*/
+
+:root{
+    --roxo: #593954;
+    --azul1: #013440;
+    --azul2: #026873;
+    --azul3: #038C8C;
+    --azul4: #038C7F;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #593954;
+}
+main{
+    
+    background: white;
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../imagens/foto-padrao.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.403);
+}
+
+#formulario{
+    background: white;
+    height: 55vh;
+    margin-top: 175px;
+    border-radius: 0px 0px 30px 30px;
+
+    
+}
+
+#formulario > h1{
+    text-align: center;
+    padding: 10px;
+}
+#formulario > p{
+    text-align: left;
+}
+
+#entrar{
+  background: #026873;
+  color: white;
+  width: 55vw;
+  display: block;
+  margin: auto;
+  padding: 8px;
+  border-radius: 6px;  
+  cursor: pointer;
+  margin-top: 10px;
+  border: 1px solid #038C8C;
+  box-shadow: 1px 1px 7px #038c8c5c;
+}
+
+#entrar:hover{
+    background: #038C7F;
+}
+
+#esqueci{
+  background: white;
+  color: #038C8C;
+  width: 55vw;
+  display: block;
+  margin: auto;
+  padding: 8px;
+  border-radius: 6px;  
+  cursor: pointer;
+  border: 1px solid #038C8C;
+  box-shadow: 1px 1px 7px #038c8c5c;
+}
+
+#esqueci:hover{
+    background: #038C7F;
+    color: white;
+    
+}
+
+form > input{
+    background:#aeffff;
+    padding: 6px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+}
+
+

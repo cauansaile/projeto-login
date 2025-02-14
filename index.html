@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de login</title>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    
+    <main>
+        <section>
+            
+            
+            <div id="formulario">
+                <h1>login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <label for="iemail"><span class="material-symbols-outlined">person</span> </label>
+                    <input type="email" id="iemail" name="email" required placeholder="Seu e-mail" class="campos" >
+                    <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" name="senha" id="isenha" required placeholder="Sua senha" minlength="8" class="campos"> <br>
+                    <input type="submit" value="Entrar" id="entrar"> <br>
+                    <input type="button" value="Esqueci a senha" id="esqueci">
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
