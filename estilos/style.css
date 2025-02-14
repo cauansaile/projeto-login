@@ -89,6 +89,7 @@ main{
   cursor: pointer;
   border: 1px solid #038C8C;
   box-shadow: 1px 1px 7px #038c8c5c;
+  margin-top: -10px;
 }
 
 #esqueci:hover{
@@ -97,13 +98,78 @@ main{
     
 }
 
-form > input{
-    background:#aeffff;
-    padding: 6px;
-    text-align: center;
-    display: block;
-    margin: auto;
-    margin-top: 7px;
+form > div > input{
+
+    border-radius: 5px;
 }
 
+.input-group{
+    background: #593954;
+}
+
+.input-email{
+    margin-top: 15px;
+    background: #593954;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.input-email > input{
+    padding: 10px;
+    background:#aeffff;
+    position: absolute;
+    left: 57%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 25px;
+
+}
+#person{
+    color: white;
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    transform: translate( -50%);
+}
+
+.input-senha{
+   
+        margin-top: 15px;
+        background: #593954;
+        width: 300px;
+        height: 50px;
+        margin: auto;
+        border-radius: 5px;
+        position: relative;
+    }
+    
+.input-senha > input{
+    padding: 10px;
+    background:#aeffff;
+    position: absolute;
+    left: 57%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 25px;
+}
+#key{
+    color: white;
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    transform: translate( -50%);
+}
+
+.text{
+    margin-bottom: 13px;
+
+}
+.text > h1{
+    text-align: center;
+}
 

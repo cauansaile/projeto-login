@@ -13,13 +13,19 @@
             
             
             <div id="formulario">
-                <h1>login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <div class="text">
+                    <h1>login</h1>
+                                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                </div>
                 <form action="login.php" method="post">
-                    <label for="iemail"><span class="material-symbols-outlined">person</span> </label>
-                    <input type="email" id="iemail" name="email" required placeholder="Seu e-mail" class="campos" >
-                    <label for="isenha"><span class="material-symbols-outlined">key</span></label>
-                    <input type="password" name="senha" id="isenha" required placeholder="Sua senha" minlength="8" class="campos"> <br>
+                    <div class="input-email">
+                        <label for="iemail"><span class="material-symbols-outlined" id="person">person</span> </label>
+                        <input type="email" id="iemail" name="email" required placeholder="Seu e-mail" class="campos" >
+                    </div>
+                    <div class="input-senha">
+                        <label for="isenha"><span class="material-symbols-outlined" id="key">key</span></label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Sua senha" minlength="8" class="campos"> <br>
+                    </div>
                     <input type="submit" value="Entrar" id="entrar"> <br>
                     <input type="button" value="Esqueci a senha" id="esqueci">
                 </form>
