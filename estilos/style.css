@@ -110,7 +110,7 @@ form > div > input{
 .input-email{
     margin-top: 15px;
     background: #593954;
-    width: 300px;
+    width: 60vw;
     height: 50px;
     margin: auto;
     border-radius: 5px;
@@ -140,7 +140,7 @@ form > div > input{
    
         margin-top: 15px;
         background: #593954;
-        width: 300px;
+        width: 60vw;
         height: 50px;
         margin: auto;
         border-radius: 5px;
