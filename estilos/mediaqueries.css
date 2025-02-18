@@ -5,8 +5,8 @@
     main{
         width: 95vw;
         height: 42vh;
-        background: url(../imagens/foto-padrao.jpg);
-        background-position: right center;
+        background: url(../imagens/pexels-sean-whang-25006-804269.jpg);
+        background-position: left center;
         
     }
     
@@ -50,7 +50,7 @@
     main{
         width: 95vw;
         height: 60vh;
-        background: url(../imagens/foto-padrao.jpg);
+        background: url(../imagens/pexels-sean-whang-25006-804269.jpg);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: cover;

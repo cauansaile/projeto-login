@@ -38,7 +38,7 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: url(../imagens/foto-padrao.jpg);
+    background: url(../imagens/pexels-sean-whang-25006-804269.jpg);
     background-size: cover;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.403);
 }
@@ -46,7 +46,7 @@ main{
 
 #formulario{
     background: white;
-    height: 58vh;
+    height: 63vh;
     margin-top: 175px;
     border-radius: 0px 0px 30px 30px;
 
