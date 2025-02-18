@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+    :root{
+        --roxo: #593954;
+        --azul1: #013641;
+        --azul2: #026873;
+        --azul3: #038C8C;
+        --azul4: #038C7F;
+    }
+    body{
+        background: radial-gradient(blue, red) ;
+    }
+    
+}
