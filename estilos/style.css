@@ -124,7 +124,7 @@ form > div > input{
     left: 57%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 230px;
+    width: 43vw;
     height: 25px;
 
 }
@@ -154,7 +154,7 @@ form > div > input{
     left: 57%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 230px;
+    width: 43vw;
     height: 25px;
 }
 #key{
